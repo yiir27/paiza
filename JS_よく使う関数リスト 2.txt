@@ -83,6 +83,7 @@ object.entries)() オブジェクトを配列に変換
 
 Math.floor() 切り捨て
 Math.ceil() 切り上げ
+Math.round() 四捨五入
 Math.random() ランダム
 Math.abs(-1) A. 1 絶対値を返す
 
@@ -230,3 +231,7 @@ new Worker() Web Workerのインスタンス生成
 
 Math.floor() 与えられた数値以下の最大の整数を返します memo:Math.floor(null)は０を返す
 ~~x(ビット演算子) = Math.floor(x)と同等の結果を返す場合が多い(ただしxが正の数の場合)
+
+省略形にマッピング
+const wordMapping = { 1: 'start', 2: 'end, ...};
+wordMapping[1];
