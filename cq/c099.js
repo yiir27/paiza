@@ -11,4 +11,4 @@ const culcurate = (a, arr) => {
     return sum;
 }
 console.log(area*(area + culcurate(area, widthArr)));
-// console.log(widthArr);
+// console.log(widthArr);""
