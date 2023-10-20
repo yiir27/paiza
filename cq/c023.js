@@ -25,9 +25,9 @@ for(let i = 0; i < N; i++ ){
 };
 
 //shinnjiさんコード
-const count = (lots, winNo) => lots.map(lot => 
-    lot.reduce((a, n) => a + winNo.includes(n),0));
+// const count = (lots, winNo) => lots.map(lot => 
+//     lot.reduce((a, n) => a + winNo.includes(n),0));
 
-const [winNo,, ...lots] = lines.map(el => el.split(" ").map(Number));
-console.log(count(lots, winNo).join("\n"));
+// const [winNo,, ...lots] = lines.map(el => el.split(" ").map(Number));
+// console.log(count(lots, winNo).join("\n"));
 
