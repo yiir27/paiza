@@ -86,6 +86,7 @@ Math.ceil() 切り上げ
 Math.round() 四捨五入
 Math.random() ランダム
 Math.abs(-1) A. 1 絶対値を返す
+Math.max(...arr) 配列の中の一番大きい数字を表示
 
 ## データ
 
