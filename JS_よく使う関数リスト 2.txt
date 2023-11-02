@@ -14,6 +14,7 @@ string.includes() 検索(含まれているか
 string.toLowerCase() 小文字に変換
 string.replace() 置き換え
 
+正規表現とは文字列内を検索したり置換するための強力な方法
 ## 正規表現を使えるメソッド(抜粋)
 string.replace()
 string.match()
@@ -32,6 +33,9 @@ $ 行の末尾にマッチ
 \w 文字に一致
 \d 数字に一致
 \s 空白文字に一致
+/g 値に一致
+/i 大文字・小文字を区別しない検索
+/gi 値に一致して大文字小文字を区別しない
 
 ## 配列 Array
 
@@ -236,3 +240,4 @@ Math.floor() 与えられた数値以下の最大の整数を返します memo:M
 省略形にマッピング
 const wordMapping = { 1: 'start', 2: 'end, ...};
 wordMapping[1];
+
