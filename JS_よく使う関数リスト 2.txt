@@ -47,7 +47,7 @@ array.shift() 先頭を取り除く
 array.pop() 末尾を取り除く
 array.splice() 一部を置き換え
 array.concat() 連結
-array.indexOf() 要素検索
+array.indexOf() 要素検索 何番目の要素か教えてくれる
 array.sort()	ソート
 array.flat() ネストされた配列を平らに
 array.includes() 特定要素が含まれているか
