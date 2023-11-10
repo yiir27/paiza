@@ -12,7 +12,7 @@ string.trim() 両端から空白などを取り除く
 string.startsWith() 指定文字列で始まるか
 string.includes() 検索(含まれているか
 string.toLowerCase() 小文字に変換
-string.replace() 置き換え,削除
+string.replace(変更前,変更後) 置き換え,削除  変更前の指定方法 例: /Dog/g
 String.padStart() 結果の文字列が指定した長さになるように現在の文字列の先頭から適用されます。 d025.js
 
 正規表現とは文字列内を検索したり置換するための強力な方法
@@ -61,6 +61,7 @@ array.reduce(callback) 配列を累積(全部足したり)
 {...array} 配列をオブジェクトに変換
 array.find() 配列内の最初の要素を返す
 array.fill() 開始位置（既定値は 0）から終了位置（既定値は array.length）までのすべての要素を、静的な値に変更した配列を返します
+array.length 配列の中の数を取得
 
 ## 連想配列 Map
  
