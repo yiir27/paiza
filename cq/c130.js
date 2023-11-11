@@ -1,18 +1,28 @@
 const lines = ['4','y n','n y','n n','y y'];
 
 //suusan
-const quizData = lines.slice(1);
-const checkQuizData = stringArray => {
-    return stringArray
-    .map((str, index) => {
-        const [first, second] = str.split(' ');
-        return first === 'y' && second === 'y' ? null : index + 1;
-    })
-    .filter(index => index !== null);
-}
-const result = checkQuizData(quizData);
-console.log(result.length);
-result.forEach(item => console.log(item));
+// const quizData = lines.slice(1);
+// const checkQuizData = stringArray => {
+//     return stringArray
+//     .map((str, index) => {
+//         const [first, second] = str.split(' ');
+//         return first === 'y' && second === 'y' ? null : index + 1;
+//     })
+//     .filter(index => index !== null);
+// }
+// const result = checkQuizData(quizData);
+// console.log(result.length);
+// result.forEach(item => console.log(item));
+
+//mycode すーさんコード参照
+const answers = lines.map(el=>el.split(' '));
+const separates = answers.slice(1);
+const quizData = separates.map((separate, index) => {
+    return separate.join('') !== 'yy' ? index + 1 : null;
+}).filter(index => index !== null);
+
+console.log(quizData.length);
+quizData.forEach(item => console.log(item));
 
 //maycode 結果NG
 // const answers = lines.map(el=>el.split(' '));
