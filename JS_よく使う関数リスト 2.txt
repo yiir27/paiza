@@ -12,12 +12,11 @@ string.trim() 両端から空白などを取り除く
 string.startsWith() 指定文字列で始まるか
 string.includes() 検索(含まれているか
 string.toLowerCase() 小文字に変換
-string.replace(変更前,変更後) 置き換え,削除  変更前の指定方法 例: /Dog/g
 String.padStart() 結果の文字列が指定した長さになるように現在の文字列の先頭から適用されます。 d025.js
 
 正規表現とは文字列内を検索したり置換するための強力な方法
 ## 正規表現を使えるメソッド(抜粋)
-string.replace()
+string.replace(変更前,変更後) 置き換え,削除  変更前の指定方法 例: /Dog/g
 string.match() 正規表現に対する文字列の照合結果を受け取ります。 d089.js
 string.search()
 string.split()
