@@ -77,9 +77,7 @@ map.keys(callback)
 map.values(callback)
 map.entries(callback)
 
-Math.pow(数字,何乗)
-
-new Set 重複値を取り除く
+## new Set 重複値を取り除く d165.js
 
 ## オブジェクト Object
 
@@ -88,19 +86,25 @@ object.entries)() オブジェクトを配列に変換
 ## 数字 Math
 
 Math.floor() 切り捨て
+与えられた数値以下の最大の整数を返します memo:Math.floor(null)は０を返す
+~~x(ビット演算子) = Math.floor(x)と同等の結果を返す場合が多い(ただしxが正の数の場合)
 Math.ceil() 切り上げ
 Math.round() 四捨五入
 Math.random() ランダム
 Math.abs(-1) A. 1 絶対値を返す
 Math.max(...arr) 配列の中の一番大きい数字を表示
+Math.pow(数字,何乗)
+
+
+###偶数と奇数  計算式
+number % 2 == 0  偶数
+number % 2 == 1  奇数
 
 ## データ
-
 type of 値 // 値がどんなタイプか(文字列か、数値かなど)
 値 instanceof オブジェクト
 
 ## ブラウザ操作
-
 alert アラート
 confirm 確認メッセージ
 window.innerWidth 画面幅
@@ -234,12 +238,10 @@ import { class名} from './ファイル名':
 
 new Worker() Web Workerのインスタンス生成
 
-三項演算子 condition ? exprIfTrue : exprIfFalse; 値が条件として使用される式 ? true : false;
+##三項演算子
+condition ? exprIfTrue : exprIfFalse; 値が条件として使用される式 ? true : false;
 
-Math.floor() 与えられた数値以下の最大の整数を返します memo:Math.floor(null)は０を返す
-~~x(ビット演算子) = Math.floor(x)と同等の結果を返す場合が多い(ただしxが正の数の場合)
-
-省略形にマッピング
+##省略形にマッピング
 const wordMapping = { 1: 'start', 2: 'end, ...};
 wordMapping[1];
 
