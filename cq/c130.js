@@ -54,3 +54,5 @@ quizData.forEach(item => console.log(item));
 // }
 // console.log(result(checkanswers));
 // console.log(output)
+
+//

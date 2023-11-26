@@ -58,7 +58,7 @@ value->配列の要素を一つずつ取り出す index->配列の順番 array->
 array.filter(callback) 条件を満たす新しい配列を生成
 array.reduce(callback) 配列を累積(全部足したり)
 {...array} 配列をオブジェクトに変換
-array.fill() 開始位置（既定値は 0）から終了位置（既定値は array.length）までのすべての要素を、静的な値に変更した配列を返します
+array.fill() 開始位置（既定値は 0）から終了位置（既定値は array.length）までのすべての要素を、一定の値に変更します
 array.length 配列の中の数を取得
 array.some() 配列の中の少なくとも 1 つの要素が合格するかどうかを判定  true,falseで返す
 array.every() 列内のすべての要素が指定された関数で実装されたテストに合格するかどうかを判定 true,falseで返す
