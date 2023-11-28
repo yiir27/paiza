@@ -4,7 +4,7 @@ JavaScript よく使う関数
 
 string.length  長さ
 string.indexOf() 検索(位置)
-string.slice() 取り出し
+string.slice() 文字列の取り出し 
 string.substring() 〇文字目から〇文字だけ取り出す
 string.split() 分割
 string.concat() 連結
