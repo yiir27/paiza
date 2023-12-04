@@ -13,6 +13,7 @@ string.startsWith() 指定文字列で始まるか
 string.includes() 検索(含まれているか
 string.toLowerCase() 小文字に変換
 String.padStart() 結果の文字列が指定した長さになるように現在の文字列の先頭から適用されます。 d025.js
+partseInt() 文字列を整数値に変換
 
 正規表現とは文字列内を検索したり置換するための強力な方法
 ## 正規表現を使えるメソッド(抜粋)
